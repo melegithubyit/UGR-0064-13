@@ -4,81 +4,84 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
+    <title>Contact page</title>
+    <link rel="stylesheet" href="contact.css">
+    <script src="/javascript.js"></script>
 </head>
 <body>
-<h1>Discover Ethiopia</h1>
-    <nav>
-        <a href="the home page with out css.html">Home</a>
-        <a href="about us page with out css.html">About</a>
-        <a href="contact page with out css.html">Contact</a>
+   <header>
+    <h1 class="__main__header">Discover Ethiopia</h1>
+    <nav class="navigation_block">
+        <a href="Contact.html" id="contact" class="navigation__links">Contact</a>
+        <a href="About.html" class="navigation__links">About</a>
+        <a href="Home.html" class="navigation__links">Home</a>
     </nav>
-    
-    <div class="container">
-        <header>
-            <h1>Contact Us</h1>
-            <p>We hope you find something useful from the website. Our first priority is to provide you the information you
+   </header>
+    <div class="container_block">
+        <div class="__container__">
+            <h2 class="_container_heading">Contact Us</h2>
+            <p class="_container_paragraph">We hope you find something useful from the website. Our first priority is to provide you the information you
             need when you plan to visit Ethiopia. We provide you a form below to send us a message you feel positive or
             negative about the website. Your feedback is very necessary for us to improve the Environment. If you feel
             something urgent case to be considerd you can send us an exclusive E-mail</p>
-        </header>
-        <div>
-            <div >
-                <section>
+        </div>
+        <div class="content">
+            <div class="content-form">
+                <div class="Address-block">
                     <h2>Address</h2>
                     <p>Addis Ababa, Ethiopia<br>you can find us here <a
-                            href="https://www.google.com/maps/@9.0401933,38.7573945,16z">to map</a>
-                    </p>
-                </section>
+                            href="https://www.google.com/maps/@9.0401933,38.7573945,16z">to map</a></p>
+                </div>
     
-                <section>
+                <div class="phoneNO-block">
                     <h2>Our phone No</h2>
                     <p>251-113-495542</p>
                     <p>+251962212818</p>
                     <p>251-115-56778</p>
-                </section>
+                </div>
     
-                <section>
+                <div class="Email-block">
                     <h2>E-mail</h2>
-                    <p>Melakeselamyitbarek2012@gmail.com</p>
+                    <p>Melakeselamyit@gmail.com</p>
                     <p>melakeselamytb@gmail.com</p>
-                </section>
+                </div>
             </div>
     
         </div>
     
         <form>
-            <div>
-                <div>
-                    <div>
-                        <input type="text" id="name" required>
-                        <label for="name">Full name</label>
+            <div class="form">
+                <div class="right">
+                    <div class="contact-form">
+                        <input type="text" required class="blank input_blank">
+                        <span>Full name</span>
                     </div>
-    
-                    <div>
-                        <input type="text" id="email" required>
-                        <label for="email">E-mail</label>
+        
+                    <div class="contact-form">
+                        <input type="email" required class="blank input_blank">
+                        <span>E-mail</span>
                     </div>
-    
-                    <div>
-                        <label for="textarea">Type your message here...</label>
+        
+                    <div class="contact-form">
+                        <span>Type your message here...</span>
                         <br>
-                        <textarea name="text" id="textarea" cols="30" rows="10" placeholder="your comment here..."
-                            required></textarea>
-    
+                        <textarea name="text" id="" cols="30" rows="10" placeholder="your comment here..." required class="text_area"></textarea>
+        
                     </div>
-    
-                    <div>
-                        <button>Submit</button>
+        
+                    <div class="contact-form">
+                        <input type="submit" name="submit" onclick="myfunction()" class="blank submit_button">
                         <a href="mailto:melakeselamytb@gmail.com">Exclusive E-mail</a>
                     </div>
-    
+                    <div class="footer_block">
+                        <p class="footer_paragraph">&copy;2022|Discover Ethiopia Group|All Rights Reserved.
+                        <p>
+                    </div>
+        
                 </div>
             </div>
         </form>
     </div>
-    <footer>
-        <p>&copy;2022|Discover Ethiopia Group|All Rights Reserved.<p>
-    </footer>
+    
 </body>
 </html>
