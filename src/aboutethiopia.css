@@ -1,5 +1,5 @@
 body{
-    background-image:url(/Image/grass_113584537.jpg) ;
+    background-image:url(./Image/grass_113584537.jpg) ;
     opacity:1;
     background-repeat:no-repeat;
     background-position:right top, left top ;
@@ -39,7 +39,7 @@ nav a:hover {
     margin: 15px;
 }
 header {
-    background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.3)), url(/Image/tisabay2.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.3)), url(./Image/tisabay2.jpg);
 }
 nav {
     display: inline;
@@ -62,7 +62,7 @@ font-weight: lighter;
 color: white;
 }
 .title-block{
-background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)), url(/Image/tisabay2.jpg);
+background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)), url(./Image/tisabay2.jpg);
 }
 .image-block img{
     margin: auto;
@@ -76,7 +76,7 @@ background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)), url(/Image/
 */
 .guiding-block p{
     text-align:center;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url(/Image/tisabay2.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url(./Image/tisabay2.jpg);
     padding: 30px 5px;
     margin: 40px 200px;
     font-family: 'Abril Fatface',cursive;
@@ -102,7 +102,7 @@ ul li {
     font-size: 15px;
 }
 .about-ethiopia p{
-        background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), url(/Image/green.jpg);
+        background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), url(./Image/green.jpg);
         color: white;
         text-align:center;
         padding: 30px;
@@ -137,7 +137,7 @@ ul li {
         font-weight: 1700px
 }
 .main-block p{
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), url(/Image/green.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), url(./Image/green.jpg);
     color: white;
     text-align: center;
     padding: 30px;
@@ -245,7 +245,7 @@ table{
     font-weight: 1700px
 }
 .population-main-block p{
-        background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), url(/Image/green.jpg);
+        background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), url(./Image/green.jpg);
         color: white;
         text-align: center;
         padding: 30px;
@@ -306,7 +306,7 @@ font-family: 'Rubik Vinyl', cursive;
     font-weight: 1700px
 }
 .time-and-climate p{
-        background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), url(/Image/green.jpg);
+        background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), url(./Image/green.jpg);
             color: white;
             text-align: center;
             padding: 30px;
@@ -354,7 +354,7 @@ font-family: 'Rubik Vinyl', cursive;
     margin-right: 15px;
 }
 .land-and-topography p {
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), url(/Image/green.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), url(./Image/green.jpg);
     color: rgb(255, 255, 255);
     text-align: center;
     padding: 15px;

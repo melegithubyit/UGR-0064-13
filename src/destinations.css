@@ -41,7 +41,7 @@ body{
     border-radius: 50%;
 }
 .header_block{
-    background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0,0.3)), url(/Image/tisabay2.jpg); 
+    background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0,0.3)), url(./Image/tisabay2.jpg); 
 }
 .navigation_block{
     display: inline;
